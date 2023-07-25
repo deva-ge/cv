@@ -23,7 +23,7 @@ header, footer {
 }
 
 /* Стили для основных разделов */
-#about-me, #services, #testimonials, #contact {
+#goal, #education, #testimonials, #contact {
     padding: 40px;
 }
 
