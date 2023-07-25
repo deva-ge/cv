@@ -98,8 +98,16 @@ body {
 header {
     background-color: #f2f2f2;
     padding: 20px;
+    display: flex; /* Make header a flex container */
+    justify-content: space-between; /* Distribute space evenly between children */
 }
-
+.cv-title {
+    display: flex; /* Make title a flex container too */
+    align-items: center; /* Center the text vertically */
+    justify-content: center; /* Center the text horizontally */
+    flex-grow: 1; /* Allow it to grow and take up remaining space */
+    text-align: center;
+}
 /* Стили для контейнера с фото и текстом */
 .profile-wrapper {
     display: flex; /* Используем flex-контейнер */
