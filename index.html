@@ -9,12 +9,13 @@
 </head>
 
 <body>
+    <section id="top"></section>
     <header>
         <div class="profile-wrapper">
             <div class="profile-pic">
-             <img src="pic/me.png" alt="ავთო">
+                <img src="pic/me.png" alt="ავთო">
             </div>
-        
+            
             <div class="profile-text">
                 <h1>ავთო ფანგანი</h1>
                 <p>ალაზნის ქ. № 16</p>
@@ -22,14 +23,27 @@
                 <p>+995 591 011 018</p>
                 <p>E-Mail: trainer@din.ge</p>
             </div>
-            
+                
             <div class="cv-title">
                 <h2>CURRICULUM VITAE</h2>
             </div>
         </div>
+        <nav>
+            <ul>
+                <li><a href="#goal">მიზანი</a></li>
+                <li><a href="#education">განათლება</a></li>
+                <li><a href="#skills">უნარები</a></li>
+                <li><a href="#experience">სამუშაო გამოცდილება</a></li>
+                <li><a href="#certificats">სერთიფიკატები</a></li>
+                <li><a href="#languages">ენები</a></li>
+                <li><a href="#recomendators">რეკომენდაციები</a></li>
+            </ul>
+        </nav>
+        
     </header>
 
     <main>
+        <!-- <section id="top"></section> -->
         <section id="goal">
             <h2>მიზანი</h2>
             <hr>
@@ -70,13 +84,46 @@
             <hr>
         </section>
 
-        <section id="contact">
-            <!-- Раздел с контактной информацией и формой обратной связи -->
-            <h4>ჩემი საკონტაქტო ინფორმაცია</h4>
+        <section id="experience">
+            <h2>სამუშაო გამოცდილება</h2>
+
+            <p>
+                <strong>მასწაველბელი</strong> - ს. ვარდისუბანის საჯარო სკოლა, თელავი (სექტემბერი, 2022 - დღემდე)
+            </p>
             <ul>
-              <li>ტელეფონი: +995 591 011 018</li>
-              <li>e-Mail: trainer@din.ge</li>
+                <li>ICT გაკვეთილების ჩატარება 2-6 კლასებში</li>
+                <li>Tech Club-ის ტრენინგები პროგრამირების ენა Pyton-ში</li>
+                <!-- Добавьте больше обязанностей и достижений по мере необходимости -->
             </ul>
+            
+            
+        </section>
+        <section id="certificats">
+            <h2>სერთიფიკატები</h2>
+
+            <p><strong>ტრენერობის ტრენინგი</strong> -  TCC თბილისი ( 2009 წ.)</p>
+            <p><strong>Front-end პროგრამირების ტრენერი</strong> -  TCC თბილისი ( 2009 წ.)</p>
+            <p><strong>Python-ზე პროგრამირების ტრენერი</strong> -  TCC თბილისი ( 2009 წ.)</p>
+            
+            
+        </section>
+        <section id="languages">
+            <h2>ენები</h2>
+
+            <p><strong>ქართული</strong> - მშობლიური</p>
+            <p><strong>რუსული</strong> - თავისუფლად</p>
+            <p><strong>ინგლისური</strong> - ტექნიკური</p>
+            
+        </section>
+        <section id="recomendators">
+            <h2>რეკომენდაციები</h2>
+
+            <p>
+                <strong>მასწაველბელი</strong> - ს. ვარდისუბანის საჯარო სკოლა, თელავი (სექტემბერილ, 2022 - დღემდე)
+            </p>
+            
+            
+            
         </section>
     </main>
 
@@ -84,6 +131,19 @@
         <!-- Здесь может быть информация об авторских правах, ссылки на социальные сети и т. д. -->
         <p>კახეთი, საქართველო</p>
     </footer>
+    <a href="#top" id="back-to-top">&#9650;</a>
+
+    <script>
+        // Скрипт для отображения и скрытия кнопки "наверх"
+        window.addEventListener('scroll', function() {
+            var button = document.getElementById('back-to-top');
+            if (window.scrollY > 200) {
+                button.style.display = 'block';
+            } else {
+                button.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 
 </html>
