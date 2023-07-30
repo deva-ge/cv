@@ -208,3 +208,10 @@ nav li a:visited {
     border-radius: 50%;
     cursor: pointer;
 }
+
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
