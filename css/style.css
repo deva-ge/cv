@@ -38,7 +38,11 @@ header, footer {
 }
 
 /* ძირითადი განყოფილებების სტილები */
-#goal, #education, #testimonials, #experience, #skills, #languages, #certificats, #recomendators {
+#goal, #education, #testimonials, #experience, #skills, #languages, #certificats, #recomendators, #projects  {
+    padding: 40px;
+}
+
+#projects  {
     padding: 40px;
 }
 
